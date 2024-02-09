@@ -1,0 +1,28 @@
+.accordinItem{
+    border-top: 1px solid rgb(114,114,114);
+    border-bottom: 1px solid rgb(114,114,114);
+}
+.accordinItem__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    width: 80%;
+}
+.accordinItem__content{
+    width: 60%;
+}
+.addcircle__icon,.minusCircle__icon{
+    width: 30px;
+    height: 30px;
+}
+.paddingsmall{
+    padding: .5rem;
+}
+.paddingbig{
+    padding: 1rem 0;
+    padding-bottom: 2.5rem;
+}
+.contentDisappear{
+    display: none;
+}
